@@ -1,0 +1,73 @@
+body{
+   /* background-image: url('https://i.pinimg.com/originals/f0/cb/99/f0cb99eae93d2d57762cafcbc711e357.gif');*/
+   /* background-image: url('https://gifimage.net/wp-content/uploads/2017/07/cloud-gif-1.gif');*/
+   background-image: url('https://data.whicdn.com/images/329910435/original.gif');
+background-size: cover;
+ 
+}
+.App{
+    text-align:center ;
+    font-size:35px;
+    margin:20%;
+   
+
+    
+}
+.App-title{
+ font-Size:50px;  
+ margin-top:-15%;
+ margin-bottom:10%;
+ -webkit-animation: neon1 1.5s ease-in-out infinite alternate !important;
+    -moz-animation: neon1 1.5s ease-in-out infinite alternate !important;
+    animation: neon1 1.5s ease-in-out infinite alternate !important ;
+    color: #fff;
+    font-family: pacifico ;
+}
+.Clock-hours, .Clock-days,.Clock-minutes, .Clock-seconds {
+    display:inline;
+    text-align: center;
+    font-family : montserrat ; 
+    font-size:30px;
+}
+@keyframes neon1 {
+    from {
+        
+       
+ text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px rgba(236, 82, 223, 0.8), 0 0 50rgba(236, 82, 223, 0.8) , 0 0 80px rgba(236, 82, 223, 0.8), 0 0 100px rgba(236, 82, 223, 0.8), 0 0 150px rgba(236, 82, 223, 0.8);
+color:rgba(139, 20, 130, 0.8);
+}
+    to {
+       
+      text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #fff, 0 0 20px rgba(155, 10, 143, 0.8), 0 0 25px rgba(155, 10, 143, 0.8), 0 0 30px rgba(155, 10, 143, 0.8), 0 0 20px rgba(155, 10, 143, 0.8), 0 0 40px rgba(155, 10, 143, 0.8);
+    }
+  }
+.Deadline-input{
+font-size:25px;
+text-align:center ;
+border-radius: 50px;
+
+
+
+}
+.Deadline-input:focus
+{ 
+    border-color:white;
+    box-shadow: 0 0px 0px rgba(236, 82, 223, 0.8) inset, 0 0 8px rgba(241, 61, 196, 0.8);  
+}
+
+.form{
+    margin-top:5%;
+    margin-left:25%;
+ 
+}
+.button{
+    border-radius: 50px ;
+    color: rgba(125, 88, 179, 0.75);
+    letter-spacing: 1px;
+    font-size: 0.5em;
+    font-weight:bold;
+}
+.button:hover{
+    color: rgba(73, 56, 100, 0.75);
+ 
+}
